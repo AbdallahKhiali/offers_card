@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(2, 54, 88, 0.720);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+}
+.box_container{
+    background-color: #fff;
+    width: 70%;
+    height: 55vh;
+    border-radius: 5px;
+    display: flex;
+    border: 0 ;
+    box-shadow: 0 2px 6px 0  hsla(0, 0, 0, 0,8%);
+    padding: 20px 10px;
+
+}
+.box{
+    padding: 20px;
+    flex: 1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: .5s ease-in-out ;
+    color: #5e75d8;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: #eeeeee40;
+}
+
+.offer_title{
+    text-transform: uppercase;
+}
+img{
+    height: 80px;
+}
+.offer_description{
+    color: darkgray;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#devise_sign{
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+}
+
+#price{
+    font-size: 32px;
+}
